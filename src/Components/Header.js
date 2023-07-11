@@ -1,4 +1,5 @@
 import React from 'react';
+import selfie from '../images/selfie.jpg';
 
 
 
@@ -18,7 +19,7 @@ function Header() {
                     </nav>
                 </div>
                 <div style={{display: "inline", float: "right", width: "auto", height: "400px", backgroundColor: 'lavender', textAlign: "center"}}>
-                    <img src="/img/selfie.jpg" alt="me"
+                    <img src={selfie} alt="me"
                     style={{height: "400px", borderRadius: "50%"}}
                     />
                 </div>
